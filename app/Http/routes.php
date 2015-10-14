@@ -19,4 +19,4 @@ Route::get('/', 'WelcomeController@index');
 
 Route::controller('photo', 'PhotoController');
 
-//Route::controller('word', 'WordController');
+Route::controller('word', 'WordController');

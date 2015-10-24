@@ -34,5 +34,15 @@ class AppServiceProvider extends ServiceProvider
 		'App\Gestion\WordGestion'
     		);
 
+		$this->app->bind(
+		'App\Repositories\EmailRepositoryInterface', 
+		'App\Repositories\EmailRepository'
+		);
+
+		$this->app->bind(
+		'App\Repositories\UtilisateurRepositoryInterface', 
+		'App\Repositories\UtilisateurRepository'
+		);
+
     }
 }

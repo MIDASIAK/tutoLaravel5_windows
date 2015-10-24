@@ -17,6 +17,6 @@ Route::get('/', function () {
 
 Route::get('/', 'WelcomeController@index');
 
-Route::controller('photo', 'PhotoController');
+Route::controller('email', 'EmailController');
 
-Route::controller('word', 'WordController');
+Route::controller('utilisateurs', 'UtilisateursController');
